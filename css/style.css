@@ -35,7 +35,7 @@ header nav ul li a.active {
 
 .main-container {
     text-align: center;
-    padding: 5vh 0; /* Use vh for responsive vertical spacing */
+    padding: 5vh 0; 
 }
 
 .portrait-frame {
@@ -57,12 +57,12 @@ header nav ul li a.active {
 
 .intro-text h1 {
     font-weight: 500;
-    color: #333;
+    color: #000000;
     margin-top: 20px;
 }
 
 .intro-text p {
-    color: #666;
+    color: #000000;
     font-weight: 300;
     font-size: 1rem;
 }
@@ -90,7 +90,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
-    position: relative; /* changed from fixed to relative */
+    position: relative; 
     width: 100%;
 }
 
@@ -100,10 +100,6 @@ footer {
         height: 150px;
     }
 }
-
-
-
-
 footer {
     background-color: #333;
     color: white;
