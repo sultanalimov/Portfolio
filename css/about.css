@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('img/about-back.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 4rem;
+    /* background: rgba(255, 255, 255, 0); */
+}
+
+.profile-container {
+    max-width: 860px;
+    margin-bottom: 2rem;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 2rem;
+    border: 6px solid #fff;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.about-content h1 {
+    font-size: 2.2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.about-content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        margin-top: 3rem;
+    }
+
+    .about-content {
+        margin-top: 2rem;
+    }
+}

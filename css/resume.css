@@ -1,0 +1,85 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding-top: 80px; /* Added space for fixed header */
+    background: #f9f9f9;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+header nav ul li a.resume.active {
+    color: #007bff;
+    border-radius: 5px;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-section h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+.resume-section p,
+.resume-section li {
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #007bff;
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    header {
+        padding: 0.5rem 0;
+    }
+}
